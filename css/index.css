@@ -21,7 +21,7 @@ body{
 
 .shadow-div{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     border: white solid 1px ;
     border-radius: 10px;
     box-shadow: 2px 5px 15px #264653;
@@ -46,9 +46,29 @@ body{
 .image{
     height: 100%;
     width: 100%;
-    background-image: url('../asset/pic1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 10px;
+}
+
+/* content style */
+.para{
+    font-family: 'Joan' , 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-name{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+}
+
+.text{
+    font-family: 'Joan' , 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin: 2px;
+}
+
+.list-container{
+    list-style: none;
 }
